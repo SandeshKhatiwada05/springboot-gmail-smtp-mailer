@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance Management System</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg,#eef2f7,#e4ebf5);
+            margin:0;
+            padding:40px 0;
+        }
+
+        .container{
+            width:600px;
+            margin:auto;
+            background:#ffffff;
+            border-radius:12px;
+            padding:35px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .header{
+            text-align:center;
+            padding-bottom:20px;
+            border-bottom:1px solid #f0f0f0;
+        }
+
+        .header h2{
+            margin:0;
+            font-size:26px;
+            color:#2c7be5;
+            letter-spacing:0.5px;
+        }
+
+        .welcome-box{
+            background:#f5f9ff;
+            border-left:4px solid #2c7be5;
+            padding:15px 18px;
+            margin-top:25px;
+            border-radius:6px;
+        }
+
+        .content{
+            margin-top:25px;
+            color:#444;
+            font-size:16px;
+            line-height:1.7;
+        }
+
+        .name{
+            font-weight:bold;
+            color:#000;
+        }
+
+        .button-container{
+            text-align:center;
+            margin-top:30px;
+        }
+
+        .button{
+            display:inline-block;
+            padding:14px 26px;
+            background:#2c7be5;
+            color:#ffffff;
+            text-decoration:none;
+            border-radius:6px;
+            font-weight:bold;
+            font-size:15px;
+            box-shadow:0 4px 12px rgba(44,123,229,0.3);
+        }
+
+        .button:hover{
+            background:#1f5fc2;
+        }
+
+        .footer{
+            margin-top:35px;
+            font-size:13px;
+            color:#888;
+            text-align:center;
+            border-top:1px solid #f0f0f0;
+            padding-top:18px;
+        }
+
+        .footer span{
+            color:#555;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h2>Attendance Management System</h2>
+    </div>
+
+    <div class="welcome-box">
+        Hello <span class="name">${name}</span>, your employee account has been successfully created.
+    </div>
+
+    <div class="content">
+
+        <p>
+            Welcome to the <strong>Attendance Management System</strong>.
+            Your registration has been completed and you can now begin using the system.
+        </p>
+
+        <p>
+            Track your daily attendance, monitor working hours, and manage leave requests
+            through the employee portal.
+        </p>
+
+        <div class="button-container">
+            <a href="#" class="button">Login to System</a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>This is an automated message from <span>Attendance Management System</span>.</p>
+        <p>Please do not reply to this email.</p>
+        <p>© 2026 Attendance Management System</p>
+    </div>
+
+</div>
+
+</body>
+</html>

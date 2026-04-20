@@ -1,4 +1,4 @@
-package com.email.emailmessage;
+package com.email.emailmessage.SimpleMail;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.email.emailmessage;
+package com.email.emailmessage.SimpleMail;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
