@@ -23,6 +23,7 @@ public class MimeMailService {
             MimeMessage message = javaMailSender.createMimeMessage();
             message.setFrom(new InternetAddress("Khatiwadasandesh501@gmail.com"));
             message.setRecipients(MimeMessage.RecipientType.TO, mailEntity.getTo());
+            message.setSubject("Hello from Sandesh!");
 
             log.info("Mail basics performed");
             ClassPathResource htmlPage = new ClassPathResource("templates/template.html");
